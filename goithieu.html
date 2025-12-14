@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Giới thiệu bản thân - Hoàng Phát</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: #ffffff;
+            width: 90%;
+            max-width: 800px;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+            padding: 40px 20px 30px;
+        }
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            margin-bottom: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+        }
+
+        .header h1 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .header p {
+            margin-top: 8px;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 30px 40px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section h2 {
+            font-size: 22px;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .section p, .section li {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .contact {
+            background: #f4f6ff;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .contact a {
+            color: #667eea;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            color: #777;
+            background: #fafafa;
+        }
+
+        @media (max-width: 600px) {
+            .content {
+                padding: 25px;
+            }
+
+            .header h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <!-- ẢNH ĐẠI DIỆN -->
+            <img src="anhdaidien.jpg" alt="Ảnh đại diện Hoàng Phát" class="avatar">
+
+            <h1>Phạm Văn Hoàng Phát</h1>
+            
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>👤 Thông tin cá nhân</h2>
+                <p>
+                    <strong>Họ và tên:</strong> Phạm Văn Hoàng Phát<br>
+                    <strong>Ngày sinh:</strong> 29/02/2008<br>
+                    <strong>Giới tính:</strong> Nam<br>
+                    <strong>Lớp:</strong> 12A3<br>
+                    <strong>Trường:</strong> THCS & THPT Minh Hòa
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>⚽ Sở thích</h2>
+                <ul>
+                    <li>Chơi thể thao: cầu lông, bóng đá, bóng chuyền</li>
+                    <li>Xem phim hoạt hình, đặc biệt là <strong>Thám tử lừng danh Conan</strong></li>
+                </ul>
+            </div>
+
+            <div class="section contact">
+                <h2>📧 Thông tin liên hệ</h2>
+                <p>
+                    Email:
+                    <a href="mailto:phamvanhoangphat.2008dt@gmail.com">
+                        phamvanhoangphat.2008dt@gmail.com
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            © 2025 | Trang giới thiệu cá nhân
+        </div>
+    </div>
+</body>
+</html>
